@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         txtStatus = (TextView) findViewById(R.id.txtStatus);
         login_button = (LoginButton) findViewById(R.id.login_button);
     }
+    //
     private void loginWithFB(){
         LoginManager.getInstance().registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
             @Override
